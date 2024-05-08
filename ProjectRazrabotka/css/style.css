@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sedan SC", serif;
+}
+header {
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background: linear-gradient(180deg, white, rgb(49, 187, 49), red);
+}
+header h1 {
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: pink;
+}
+header a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(0deg, white, rgb(49, 187, 49), red);
+  border-radius: 15px;
+  border: solid black;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  text-align: center;
+}
+#register-form {
+  width: 25%;
+  height: 50vh;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(130deg, aqua, orange, red, blue);
+  border-radius: 40px;
+}
+#register-form input {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+}
+#register-submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#register-submit-btn:hover {
+  background-color: white;
+  color: black;
+}
+#login-form {
+  width: 25%;
+  height: 30vh;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(130deg, aqua, orange, red, blue);
+  border-radius: 40px;
+}
+#login-form input {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+}
+#login-submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#login-submit-btn:hover {
+  background-color: white;
+  color: black;
+}
